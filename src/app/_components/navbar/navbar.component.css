@@ -8,6 +8,11 @@
   height: 40px;
 }
 
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+}
+
 .active {
   color: #3B5AC2;
 }
