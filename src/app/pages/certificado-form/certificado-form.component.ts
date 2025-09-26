@@ -13,6 +13,7 @@ import { Certificado } from '../../interfaces/certificado';
 })
 export class CertificadoFormComponent {
   certificado: Certificado = {
+    id: '',
     atividades: [],
     nome: '',
     dataEmissao: ''
