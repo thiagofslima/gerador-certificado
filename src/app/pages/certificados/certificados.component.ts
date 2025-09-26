@@ -18,6 +18,6 @@ export class CertificadosComponent implements OnInit {
   constructor(private certificadoService: CertificadoService) {}
 
   ngOnInit(): void {
-    this.certificados = this.certificadoService.certificados;
+    this.certificados = this.certificadoService.certificados.reverse();
   }
 }
